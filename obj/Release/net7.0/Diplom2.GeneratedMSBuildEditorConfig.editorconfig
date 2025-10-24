@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Diplom2
+build_property.RootNamespace = Diplom2
+build_property.ProjectDir = C:\Users\nanos\source\repos\Diplom2\Diplom2\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\nanos\source\repos\Diplom2\Diplom2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Admin/AddGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkR3JvdXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Admin/GroupNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR3JvdXBOb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Admin/ShowAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd0FsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Admin/StudentsAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3R1ZGVudHNBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Admin/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/AINetwork/Scan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlOZXR3b3JrXFNjYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/AINetwork/ScanAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlOZXR3b3JrXFNjYW5BZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/AINetwork/ScanResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQUlOZXR3b3JrXFNjYW5SZXN1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Auth/IncorrectData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmNvcnJlY3REYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Auth/IncorrectPasswordError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxJbmNvcnJlY3RQYXNzd29yZEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Auth/LoginAlreadyClaimedError.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxMb2dpbkFscmVhZHlDbGFpbWVkRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Auth/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/nanos/source/repos/Diplom2/Diplom2/Views/Auth/RegistrationSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aFxSZWdpc3RyYXRpb25TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

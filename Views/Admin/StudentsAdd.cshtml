@@ -1,0 +1,43 @@
+﻿
+
+@{
+    ViewData["Title"] = "Добавить студента";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="StudentsAdd" asp-controller="Admin" method="post" class="student-form">
+    <div class="form-group">
+        <label asp-for="Name">Имя</label>
+        <input asp-for="Name" class="form-control" placeholder="Введите имя" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Surname">Фамилия</label>
+        <input asp-for="Surname" class="form-control" placeholder="Введите фамилию" />
+        <span asp-validation-for="Surname" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="MiddleName">Отчество</label>
+        <input asp-for="MiddleName" class="form-control" placeholder="Введите отчество" />
+        <span asp-validation-for="Middle_name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Age">Возраст</label>
+        <input asp-for="Age" type="number" min="0" class="form-control" placeholder="Введите возраст" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Group">Группа</label>
+        <input asp-for="Group" class="form-control" placeholder="Введите группу" />
+        <span asp-validation-for="Group" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Добавить студента</button>
+</form>
+
+

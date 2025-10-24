@@ -1,0 +1,36 @@
+﻿@using Diplom2.Models;
+@model GroupModel
+
+@{
+    ViewData["Title"] = "Добавить группу";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<form asp-action="AddGroup" method="post">
+    <div class="form-group">
+        @Html.AntiForgeryToken()
+        <label asp-for="GroupName" class="control-label"></label>
+        <input asp-for="GroupName" class="form-control" />
+        <span asp-validation-for="GroupName" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Добавить</button>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+
+
+

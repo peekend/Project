@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "Ошибка: группа не найдена";
+}
+
+<div class="message-container error">
+    <h2>Ошибка: группа не существует</h2>
+    <p>Группа с таким именем не найдена.</p>
+    <a href="/AddStudent" class="btn btn-danger mt-3">Вернуться назад</a>
+</div>
+
+<style>
+    .message-container {
+        max-width: 400px;
+        margin: 80px auto;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+        background-color: #ffe6e6;
+        color: #a60000;
+    }
+
+        .message-container.error h2 {
+            margin-bottom: 10px;
+        }
+</style>
+
